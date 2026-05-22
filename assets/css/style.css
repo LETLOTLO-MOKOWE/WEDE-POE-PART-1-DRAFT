@@ -401,31 +401,85 @@ footer{
     width: 90%;
     margin: 50px auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+    align-items: stretch;
 }
-.catalog,
-.products{
-    background: #525252b2;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+/* Products page styling (scoped to products catalog only) */
+.catalog .product{
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    gap: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.product-card{
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
+
+.catalog .product:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 16px 35px rgba(0,0,0,0.25);
 }
-.product-card img{
-    width: 50%;
-    height: 20px;
-    border-radius: 10px;
+
+.catalog .product img{
+    width: 100%;
+    height: 200px;
     object-fit: cover;
+    border-radius: 12px;
+    background: #fff;
 }
-.product-card h3{
-    margin: 15px 0;
-    color: #333;
+
+.catalog .product .name{
+    font-size: 16px;
+    font-weight: 800;
+    color: #1f1f1f;
+    line-height: 1.25;
+    text-transform: none;
 }
+
+.catalog .product .Price{
+    font-size: 18px;
+    font-weight: 900;
+    color: #b40a0a;
+    margin-top: -2px;
+}
+
+.catalog .product button{
+    margin-top: auto;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 10px;
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.05s ease;
+}
+
+.catalog .product button:hover{
+    background: #555;
+}
+
+.catalog .product button:active{
+    transform: translateY(1px);
+}
+
+@media (max-width: 520px){
+    .catalog{
+        width: 95%;
+        gap: 16px;
+        margin: 30px auto;
+    }
+    .catalog .product{
+        padding: 12px;
+    }
+    .catalog .product img{
+        height: 170px;
+    }
+}
+
