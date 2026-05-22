@@ -404,6 +404,7 @@ footer{
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
 }
+.catalog,
 .products{
     background: #525252b2;
     padding: 20px;
