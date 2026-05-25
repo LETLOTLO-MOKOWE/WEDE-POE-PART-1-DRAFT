@@ -549,19 +549,8 @@ form button{
     cursor: pointer;
     transition: background-color 0.2s ease, transform 0.05s ease;
 }
-
+ 
 @media (max-width: 520px){
-    .catalog{
-        width: 95%;
-        gap: 16px;
-        margin: 30px auto;
-    }
-    .catalog .product{
-        padding: 12px;
-    }
-    .catalog .product img{
-        height: 170px;
-    }
     *{
     margin: 0;
     padding: 0;
