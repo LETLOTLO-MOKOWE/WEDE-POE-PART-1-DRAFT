@@ -154,11 +154,38 @@ nav ul li a:hover{
 }
 
 .card-1{
-    background: url('../images/organic-food.jpg') center no-repeat;
+    background: url('../images/organic.jpg') center no-repeat;
+    height: auto;
+    background-size: cover; 
+    color: gray;   
+}
+.card-1 .overlay p{
+    position: relative;
+    z-index: 1;
+    color: gray;
+}
+.card-2{
+    background: url('../images/fresh\ fruits.jpg') center no-repeat;
     height: auto;
     background-size: cover;
+    color: #1be414;;
 }
-
+.card-2.overlay h3{
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #1be414;;
+}
+.card-3{
+     background: url('../images/essentials.jpg') center no-repeat;
+    height: auto;
+    background-size: cover;
+    color: #1be414;
+}
+.card-3 .overlay p{
+    position: relative;
+    z-index: 1;
+    color: #0c0b0b;
+}   
 .card-content{
     display: flex;
     flex-direction: column;
