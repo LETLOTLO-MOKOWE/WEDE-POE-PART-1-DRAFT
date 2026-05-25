@@ -36,7 +36,7 @@ header{
     padding: 1px 0px;
 }
 .top-bar a{
-    color: #a700da;
+    color: #e6dde9;
     text-decoration: none;
     font-size: 18px;
     padding: 10px 20px;
@@ -44,7 +44,7 @@ header{
     transition: background-color 0.3s ease;
 }
 .top-bar a:hover{
-    background-color: #850000;
+    background-color: #f3f1f1;
     color: #fff;
 }
 
@@ -383,12 +383,12 @@ nav ul li a{
 
 .contact-hero{
     height:50px;
-    background:#333;
+    background:whitesmoke;
     display:flex;
     justify-content:center;
     gap: 10px;
     align-items:center;
-    color:#fff;
+    color:#333;
     font-size:35px;
 }
 .contact-hero h1{
@@ -600,7 +600,7 @@ header{
     padding: 1px 0px;
 }
 .top-bar a{
-    color: #a700da;
+    color: #f2eff3;
     text-decoration: none;
     font-size: 18px;
     padding: 10px 20px;
@@ -608,7 +608,7 @@ header{
     transition: background-color 0.3s ease;
 }
 .top-bar a:hover{
-    background-color: #850000;
+    background-color: #f3eaea;
     color: #fff;
 }
 
