@@ -99,6 +99,10 @@ nav ul li a:hover{
     font-size: 24px;
     margin-bottom: 30px;
 }
+.overlay h3{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
 .btn{
     background-color: #ff6347;
     color: #fff;
@@ -147,6 +151,12 @@ nav ul li a:hover{
     transition: 0.3s ease;
     color: #f4f4f4;
     display: absolute;
+}
+
+.card-1{
+    background: url('../images/organic-food.jpg') center no-repeat;
+    height: auto;
+    background-size: cover;
 }
 
 .card-content{
@@ -414,7 +424,6 @@ footer{
     align-items: stretch;
 }
 
-/* Products page styling (scoped to products catalog only) */
 .catalog .product{
     background: rgba(255, 255, 255, 0.95);
     border: 1px solid rgba(255, 255, 255, 0.35);
