@@ -423,12 +423,125 @@ button{
   border-radius: 10px;
 }
 
+/* Footer */
 footer{
-  background: #525252b2;
-  color: #000000;
-  text-align: center;
-  padding: 12px 10px;
+  background: rgba(24, 24, 24, 0.92);
+  color: #fff;
+  padding: 40px 0 20px;
+  margin-top: 40px;
 }
+
+.footer-container{
+  width: var(--container);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  gap: 22px;
+  align-items: start;
+}
+
+.footer-brand h3{
+  font-size: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 0.4px;
+}
+
+.footer-brand p{
+  color: rgba(255,255,255,0.85);
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+.footer-links h4,
+.footer-contact h4{
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.footer-links ul{
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.footer-links a{
+  color: rgba(255,255,255,0.85);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover{
+  color: #ff6347;
+}
+
+.footer-contact .line{
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  color: rgba(255,255,255,0.88);
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer-contact i{
+  color: #ff6347;
+  margin-top: 3px;
+}
+
+.footer-social{
+  display: flex;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.footer-social a{
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.footer-social a:hover{
+  background: rgba(255, 99, 71, 0.35);
+  transform: translateY(-2px);
+}
+
+.footer-bottom{
+  width: var(--container);
+  margin: 22px auto 0;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255,255,255,0.14);
+  text-align: center;
+  color: rgba(255,255,255,0.78);
+  font-size: 13px;
+}
+
+@media (max-width: 720px){
+  .footer-container{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-links ul{
+    justify-content: center;
+  }
+
+  .footer-contact .line{
+    justify-content: center;
+  }
+
+  .footer-social{
+    justify-content: center;
+  }
+}
+
 
 /* Products catalog */
 .catalog{
@@ -439,7 +552,11 @@ footer{
   gap: 24px;
   align-items: stretch;
 }
-
+.products-h1{
+  width: var(--container);
+  margin: 40px auto 20px;
+  text-align: center;
+}
 .catalog .product{
   background: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(255, 255, 255, 0.35);
