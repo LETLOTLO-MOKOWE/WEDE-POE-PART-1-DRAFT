@@ -26,13 +26,28 @@ header{
 
 /* Top bar (index page) */
 .top-bar{
-  width: var(--container);
   margin: auto;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  gap: 16px;
   padding: 20px 0;
+  width: var(--container);
 }
+
+
+.navbar{
+  display: flex;
+}
+
+.nav-links{
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+  width: auto;
+}
+
+
 
 .top-bar a{
   color: #fff;
@@ -92,8 +107,14 @@ nav ul li a:hover{
   color: #f9fcfa;
   font-size: 24px;
   font-weight: bold;
-  align-items: left;
 }
+
+.brand{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 
 .cart{
   position: absolute;
@@ -536,7 +557,7 @@ form button{
 }
 
 /* Responsive overrides */
-@media (max-width: 768px){
+@media (min-width: 300px ){
   .logo{font-size: 20px;}
   nav ul li a{font-size: 14px; padding: 8px 10px;}
   .navbar{padding: 14px 0;}
@@ -548,7 +569,10 @@ form button{
   .navbar, .top-bar{
     align-items: flex-start;
     padding: 12px 0;
+    flex-wrap: wrap;
+    justify-content: center;
   }
+
 
   nav ul{
     gap: 6px;
