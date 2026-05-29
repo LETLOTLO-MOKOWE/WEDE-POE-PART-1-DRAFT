@@ -73,13 +73,13 @@ This project is a static website for **FreshMart Local Grocery Store**. It provi
 - Duckett, J. (2011). *HTML and CSS: Design and Build Websites*. Indianapolis, IN: John Wiley & Sons.
 - Garrett, J. J. (2011). *The Elements of User Experience: User-Centered Design for the Web and Beyond* (2nd ed.). Berkeley, CA: New Riders.
 - Krug, S. (2014). *Don’t Make Me Think: A Common Sense Approach to Web Usability* (3rd ed.). Berkeley, CA: New Riders.
-- Nielsen Norman Group (NN/g). (2022). *Usability heuristics and user-centered design guidance*. Available at: https://www.nngroup.com/ (Accessed: 29 May 2026).
+- Nielsen Norman Group (NN/g). (2022). *Usability heuristics and user-centered design guidance*. Available at: https://www.nngroup.com/ (Accessed: 20 May 2026).
 - Mozilla Developer Network (MDN). (2026). *HTML: HyperText Markup Language*. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML (Accessed: 17 April 2026).
-- Mozilla Developer Network (MDN). (2026). *CSS: Cascading Style Sheets*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS (Accessed: 29 May 2026).
+- Mozilla Developer Network (MDN). (2026). *CSS: Cascading Style Sheets*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS (Accessed: 19 May 2026).
 - Niederst Robbins, J. (2018). *Learning Web Design: A Beginner’s Guide to HTML, CSS, JavaScript and Web Graphics* (5th ed.). Sebastopol, CA: O’Reilly Media.
 - Font Awesome. (2026). *Font Awesome documentation & icon library*. Available at: https://fontawesome.com/ (Accessed: 29 May 2026).
 - OpenAI (2026). ChatGPT responses on website development and project content. Available at: https://chat.openai.com/ (Accessed: 16 April 2026).
 - Unsplash (2026). Free stock images for website. Available at: https://unsplash.com/ (Accessed: 15 April 2026).
-- W3Schools. (2026). *HTML and CSS reference material*. Available at: https://www.w3schools.com/ (Accessed: 29 May 2026).
+- W3Schools. (2026). *HTML and CSS reference material*. Available at: https://www.w3schools.com/ (Accessed: 15 May 2026).
 
 
