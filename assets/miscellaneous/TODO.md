@@ -4,6 +4,6 @@
 - [x] Add footer styling to assets/css/style.css (layout, typography, responsive behavior, hover effects).
 - [x] Ensure footer links point to the correct pages.
 - [x] Add social icons (Font Awesome) and style them.
-- [ ] Quick manual test: open each HTML page and verify footer appearance.
+- [x] Quick manual test: open each HTML page and verify footer appearance.
 
 

@@ -1,5 +1,4 @@
- /* FreshMart - Responsive CSS */
-
+ 
 /* Base reset */
 *{
   margin: 0;
@@ -34,8 +33,12 @@ header{
   padding: 20px 0;
   width: var(--container);
 }
-
-
+.cart{
+  color: #fff;
+  font-size: 20px;
+  transition: color 0.2s ease;
+  padding: 30px;
+}
 .navbar{
   display: flex;
 }
